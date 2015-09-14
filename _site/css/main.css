@@ -1,0 +1,98 @@
+h1 {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  text-transform: lowercase; }
+
+h2 {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  text-transform: lowercase; }
+
+h3 {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  text-transform: lowercase; }
+
+h4 {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  text-transform: lowercase; }
+
+h5 {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  text-transform: lowercase; }
+
+h6 {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  text-transform: lowercase; }
+
+body {
+  font-family: arial; }
+
+.raw {
+  font-family: arial; }
+
+nav.navbar {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  text-transform: lowercase; }
+
+footer {
+  margin: 2em 0 1em;
+  text-align: center; }
+
+#land {
+  background-image: url("../images/fotr-silhouette.jpg");
+  background-size: 100% auto;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  background-color: #020304;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  font-family: "UnifrakturMaguntia", cursive; }
+  #land header {
+    border: 1px solid transparent; }
+    #land header h1 {
+      color: white;
+      text-align: center;
+      font-size: 4vw; }
+  #land nav {
+    position: absolute;
+    bottom: 5vmin;
+    right: 5vmin; }
+    #land nav a, #land nav a:hover, #land nav a:visited, #land nav a:active {
+      color: white;
+      text-transform: lowercase;
+      font-size: 2vw;
+      margin-left: 2em;
+      transition: transform 0.3s ease-in;
+      text-decoration: none; }
+    #land nav a:hover {
+      transform: scale(1.4);
+      color: red; }
+
+#about img {
+  border: 3px solid; }
+  #about img.pull-left {
+    margin-right: 20px; }
+  #about img.pull-right {
+    margin-left: 20px; }
+
+#blog #posts .post h2 {
+  margin-top: 0; }
+#blog #posts .date-box {
+  text-align: center;
+  background-color: #1D1D20;
+  width: 7em;
+  border-radius: 50%;
+  color: white; }
+  #blog #posts .date-box .date {
+    font-size: 3em; }
+  #blog #posts .date-box .month {
+    font-size: 1em; }
+#blog .subscribe {
+  text-align: center;
+  margin: 1em 0; }
