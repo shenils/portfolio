@@ -1,4 +1,4 @@
-#land {
+#projects {
   background-color: white;
   height: 100vh;
   font-family: $heading-font; 
@@ -10,6 +10,11 @@
   .content-side {
     height: 100vh;
     
+    .project-description {
+      padding-left: 4vw;
+      padding-top: 2vh;
+    }
+
     h1 {
       color: #020304;
       text-align: center;
@@ -19,14 +24,7 @@
 
     h4 {
       color: #020304;
-    }
-    
-    .carousel-space {
-      height: 50vmin;
-      color: black;
-      position: absolute;
-      top: 25vmin;
-      bottom: 25vmin;
+      font-size: 2vw;
     }
 
     nav {
@@ -56,14 +54,19 @@
   }
 
   .picture-side {
-    background-image: url('../images/shenil.jpg');
+    // background-image: url('../images/shenil.jpg');
     background-size: auto;
     background-position: bottom right;
     background-repeat: no-repeat;
-    background-color: white;
+    background-color: #202A70;
     height: 100vh;
     position: relative;
     text-align: center;
     color: #020304;
+
+    .project-row {
+      height: 25vmin;
+      width: 100%;
+    }
   }
 }

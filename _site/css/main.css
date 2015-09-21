@@ -1,30 +1,30 @@
 h1 {
-  font-family: "UnifrakturMaguntia", cursive;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   text-transform: lowercase; }
 
 h2 {
-  font-family: "UnifrakturMaguntia", cursive;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   text-transform: lowercase; }
 
 h3 {
-  font-family: "UnifrakturMaguntia", cursive;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   text-transform: lowercase; }
 
 h4 {
-  font-family: "UnifrakturMaguntia", cursive;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   text-transform: lowercase; }
 
 h5 {
-  font-family: "UnifrakturMaguntia", cursive;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   text-transform: lowercase; }
 
 h6 {
-  font-family: "UnifrakturMaguntia", cursive;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   text-transform: lowercase; }
 
@@ -35,7 +35,7 @@ body {
   font-family: arial; }
 
 nav.navbar {
-  font-family: "UnifrakturMaguntia", cursive;
+  font-family: "Lato", sans-serif;
   font-weight: 400;
   text-transform: lowercase; }
 
@@ -44,55 +44,198 @@ footer {
   text-align: center; }
 
 #land {
-  background-image: url("../images/fotr-silhouette.jpg");
-  background-size: 100% auto;
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-color: #020304;
-  width: 100%;
+  background-color: white;
   height: 100vh;
-  position: relative;
-  font-family: "UnifrakturMaguntia", cursive; }
+  font-family: "Lato", sans-serif; }
   #land header {
     border: 1px solid transparent; }
-    #land header h1 {
-      color: white;
+  #land .content-side {
+    height: 100vh; }
+    #land .content-side h1 {
+      color: #020304;
       text-align: center;
-      font-size: 4vw; }
-  #land nav {
-    position: absolute;
-    bottom: 5vmin;
-    right: 5vmin; }
-    #land nav a, #land nav a:hover, #land nav a:visited, #land nav a:active {
-      color: white;
-      text-transform: lowercase;
-      font-size: 2vw;
-      margin-left: 2em;
-      transition: transform 0.3s ease-in;
-      text-decoration: none; }
-    #land nav a:hover {
-      transform: scale(1.4);
-      color: red; }
+      font-size: 4vw;
+      margin-top: 0; }
+    #land .content-side h4 {
+      color: #020304; }
+    #land .content-side .carousel-space {
+      height: 50vmin;
+      color: black;
+      position: absolute;
+      top: 25vmin;
+      bottom: 25vmin; }
+    #land .content-side nav {
+      position: absolute;
+      bottom: 2vmin;
+      left: 0;
+      right: 0;
+      text-align: center; }
+      #land .content-side nav a, #land .content-side nav a:hover, #land .content-side nav a:visited, #land .content-side nav a:active {
+        color: #020304;
+        text-transform: lowercase;
+        font-size: 2vw;
+        margin-right: 1em;
+        margin-left: 1em;
+        transition: transform 0.3s ease-in;
+        text-decoration: none; }
+      #land .content-side nav a:hover {
+        transform: scale(1.2);
+        color: #202A70; }
+  #land .picture-side {
+    background-image: url("../images/shenil.jpg");
+    background-size: auto;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-color: white;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color: #020304; }
 
-#about img {
-  border: 3px solid; }
-  #about img.pull-left {
-    margin-right: 20px; }
-  #about img.pull-right {
-    margin-left: 20px; }
+#about {
+  background-color: white;
+  height: 100vh;
+  font-family: "Lato", sans-serif; }
+  #about header {
+    border: 1px solid transparent; }
+  #about .content-side {
+    height: 100vh; }
+    #about .content-side .about-description {
+      padding-left: 4vw;
+      padding-top: 2vh; }
+    #about .content-side h1 {
+      color: #020304;
+      text-align: center;
+      font-size: 4vw;
+      margin-top: 0; }
+    #about .content-side h4 {
+      color: #020304;
+      font-size: 2vw; }
+    #about .content-side nav {
+      position: absolute;
+      bottom: 2vmin;
+      left: 0;
+      right: 0;
+      text-align: center; }
+      #about .content-side nav a, #about .content-side nav a:hover, #about .content-side nav a:visited, #about .content-side nav a:active {
+        color: #020304;
+        text-transform: lowercase;
+        font-size: 2vw;
+        margin-right: 1em;
+        margin-left: 1em;
+        transition: transform 0.3s ease-in;
+        text-decoration: none; }
+      #about .content-side nav a:hover {
+        transform: scale(1.2);
+        color: #202A70; }
+  #about .picture-side {
+    background-size: auto;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-color: #202A70;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color: #020304; }
+    #about .picture-side .bball-row {
+      background-image: url("../images/basketball.jpg");
+      height: 50vh;
+      background-size: cover; }
+    #about .picture-side .coding-row {
+      background-image: url("../images/coding.png");
+      height: 50vh;
+      background-size: cover; }
 
-#blog #posts .post h2 {
-  margin-top: 0; }
-#blog #posts .date-box {
-  text-align: center;
-  background-color: #1D1D20;
-  width: 7em;
-  border-radius: 50%;
-  color: white; }
-  #blog #posts .date-box .date {
-    font-size: 3em; }
-  #blog #posts .date-box .month {
-    font-size: 1em; }
-#blog .subscribe {
-  text-align: center;
-  margin: 1em 0; }
+#projects {
+  background-color: white;
+  height: 100vh;
+  font-family: "Lato", sans-serif; }
+  #projects header {
+    border: 1px solid transparent; }
+  #projects .content-side {
+    height: 100vh; }
+    #projects .content-side .project-description {
+      padding-left: 4vw;
+      padding-top: 2vh; }
+    #projects .content-side h1 {
+      color: #020304;
+      text-align: center;
+      font-size: 4vw;
+      margin-top: 0; }
+    #projects .content-side h4 {
+      color: #020304;
+      font-size: 2vw; }
+    #projects .content-side nav {
+      position: absolute;
+      bottom: 2vmin;
+      left: 0;
+      right: 0;
+      text-align: center; }
+      #projects .content-side nav a, #projects .content-side nav a:hover, #projects .content-side nav a:visited, #projects .content-side nav a:active {
+        color: #020304;
+        text-transform: lowercase;
+        font-size: 2vw;
+        margin-right: 1em;
+        margin-left: 1em;
+        transition: transform 0.3s ease-in;
+        text-decoration: none; }
+      #projects .content-side nav a:hover {
+        transform: scale(1.2);
+        color: #202A70; }
+  #projects .picture-side {
+    background-size: auto;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-color: #202A70;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color: #020304; }
+    #projects .picture-side .project-row {
+      height: 25vmin;
+      width: 100%; }
+
+#contact {
+  background-color: white;
+  height: 100vh;
+  font-family: "Lato", sans-serif; }
+  #contact header {
+    border: 1px solid transparent; }
+  #contact .content-side {
+    height: 100vh; }
+    #contact .content-side h1 {
+      color: #020304;
+      text-align: center;
+      font-size: 4vw;
+      margin-top: 0; }
+    #contact .content-side h4 {
+      color: #020304; }
+    #contact .content-side nav {
+      position: absolute;
+      bottom: 2vmin;
+      left: 0;
+      right: 0;
+      text-align: center; }
+      #contact .content-side nav a, #contact .content-side nav a:hover, #contact .content-side nav a:visited, #contact .content-side nav a:active {
+        color: #020304;
+        text-transform: lowercase;
+        font-size: 2vw;
+        margin-right: 1em;
+        margin-left: 1em;
+        transition: transform 0.3s ease-in;
+        text-decoration: none; }
+      #contact .content-side nav a:hover {
+        transform: scale(1.2);
+        color: #202A70; }
+  #contact .picture-side {
+    background-size: auto;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-color: #202A70;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color: #020304; }
+    #contact .picture-side .live-map {
+      height: 100vmin;
+      width: 100%; }
