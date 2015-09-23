@@ -19,6 +19,8 @@ GEM
     execjs (2.6.0)
     fast-stemmer (1.0.2)
     ffi (1.9.10)
+    font-awesome-sass (4.4.0)
+      sass (>= 3.2)
     formatador (0.2.5)
     guard (2.13.0)
       formatador (>= 0.2.4)
@@ -106,6 +108,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  font-awesome-sass
   guard
   guard-jekyll-plus
   guard-livereload

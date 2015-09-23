@@ -39,203 +39,128 @@ nav.navbar {
   font-weight: 400;
   text-transform: lowercase; }
 
+#navbar {
+  height: 10vmin;
+  background-color: black;
+  line-height: 10vmin; }
+  #navbar .brand, #navbar .brand:hover, #navbar .brand:visited, #navbar .brand:active {
+    color: white;
+    text-transform: lowercase;
+    font-size: 2vw;
+    margin: 0 1em 0 1em;
+    transition: transform 0.3s ease-in;
+    text-decoration: none; }
+  #navbar .brand:hover {
+    transform: scale(1.2);
+    color: white; }
+  #navbar .main-navi, #navbar .main-navi:hover, #navbar .main-navi:visited, #navbar .main-navi:active {
+    color: white;
+    text-transform: lowercase;
+    font-size: 2vw;
+    margin: 0 1em 0 1em;
+    transition: transform 0.3s ease-in;
+    text-decoration: none; }
+  #navbar .main-navi:hover {
+    transform: scale(1.2);
+    color: white; }
+
 footer {
   margin: 2em 0 1em;
   text-align: center; }
 
-#land {
-  background-color: white;
-  height: 100vh;
-  font-family: "Lato", sans-serif; }
-  #land header {
-    border: 1px solid transparent; }
-  #land .content-side {
-    height: 100vh; }
-    #land .content-side h1 {
-      color: #020304;
-      text-align: center;
-      font-size: 4vw;
-      margin-top: 0; }
-    #land .content-side h4 {
-      color: #020304; }
-    #land .content-side .carousel-space {
-      height: 50vmin;
-      color: black;
-      position: absolute;
-      top: 25vmin;
-      bottom: 25vmin; }
-    #land .content-side nav {
-      position: absolute;
-      bottom: 2vmin;
-      left: 0;
-      right: 0;
-      text-align: center; }
-      #land .content-side nav a, #land .content-side nav a:hover, #land .content-side nav a:visited, #land .content-side nav a:active {
-        color: #020304;
-        text-transform: lowercase;
-        font-size: 2vw;
-        margin-right: 1em;
-        margin-left: 1em;
-        transition: transform 0.3s ease-in;
-        text-decoration: none; }
-      #land .content-side nav a:hover {
-        transform: scale(1.2);
-        color: #202A70; }
-  #land .picture-side {
-    background-image: url("../images/shenil.jpg");
-    background-size: auto;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-color: white;
-    height: 100vh;
+#land .opening-page {
+  height: 90vmin;
+  background-image: url(../images/backgrounds/paper.jpg);
+  background-size: cover;
+  text-align: center;
+  font-family: 'Delius', cursive; }
+  #land .opening-page .textbox {
+    height: 60vmin;
     position: relative;
-    text-align: center;
-    color: #020304; }
-
-#about {
-  background-color: white;
-  height: 100vh;
-  font-family: "Lato", sans-serif; }
-  #about header {
-    border: 1px solid transparent; }
-  #about .content-side {
-    height: 100vh; }
-    #about .content-side .about-description {
-      padding-left: 4vw;
-      padding-top: 2vh; }
-    #about .content-side h1 {
-      color: #020304;
-      text-align: center;
-      font-size: 4vw;
-      margin-top: 0; }
-    #about .content-side h4 {
-      color: #020304;
-      font-size: 2vw; }
-    #about .content-side nav {
-      position: absolute;
-      bottom: 2vmin;
-      left: 0;
-      right: 0;
-      text-align: center; }
-      #about .content-side nav a, #about .content-side nav a:hover, #about .content-side nav a:visited, #about .content-side nav a:active {
-        color: #020304;
-        text-transform: lowercase;
-        font-size: 2vw;
-        margin-right: 1em;
-        margin-left: 1em;
-        transition: transform 0.3s ease-in;
-        text-decoration: none; }
-      #about .content-side nav a:hover {
-        transform: scale(1.2);
-        color: #202A70; }
-  #about .picture-side {
-    background-size: auto;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-color: #202A70;
-    height: 100vh;
+    top: 15vmin;
+    font-weight: 700;
+    border: 2px solid black; }
+    #land .opening-page .textbox h4 {
+      color: black; }
+  #land .opening-page img {
+    height: 60vmin;
     position: relative;
-    text-align: center;
-    color: #020304; }
-    #about .picture-side .bball-row {
-      background-image: url("../images/basketball.jpg");
-      height: 50vh;
-      background-size: cover; }
-    #about .picture-side .coding-row {
-      background-image: url("../images/coding.png");
-      height: 50vh;
-      background-size: cover; }
+    top: 15vmin; }
+#land #gallery {
+  height: 90vmin;
+  background-image: url(../images/backgrounds/brick.jpg);
+  background-size: cover;
+  background-position: bottom;
+  text-align: center; }
+  #land #gallery .small-c {
+    position: relative;
+    top: 15vmin; }
 
 #projects {
-  background-color: white;
+  background-image: url(../images/backgrounds/wood.jpg);
+  background-position: 0 10vmin;
+  background-size: contain;
   height: 100vh;
-  font-family: "Lato", sans-serif; }
-  #projects header {
-    border: 1px solid transparent; }
-  #projects .content-side {
-    height: 100vh; }
-    #projects .content-side .project-description {
-      padding-left: 4vw;
-      padding-top: 2vh; }
-    #projects .content-side h1 {
-      color: #020304;
-      text-align: center;
-      font-size: 4vw;
-      margin-top: 0; }
-    #projects .content-side h4 {
-      color: #020304;
-      font-size: 2vw; }
-    #projects .content-side nav {
-      position: absolute;
-      bottom: 2vmin;
-      left: 0;
-      right: 0;
-      text-align: center; }
-      #projects .content-side nav a, #projects .content-side nav a:hover, #projects .content-side nav a:visited, #projects .content-side nav a:active {
-        color: #020304;
-        text-transform: lowercase;
-        font-size: 2vw;
-        margin-right: 1em;
-        margin-left: 1em;
-        transition: transform 0.3s ease-in;
-        text-decoration: none; }
-      #projects .content-side nav a:hover {
-        transform: scale(1.2);
-        color: #202A70; }
-  #projects .picture-side {
-    background-size: auto;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-color: #202A70;
-    height: 100vh;
+  font-family: "Lato", sans-serif;
+  color: white;
+  text-align: center; }
+  #projects .instruction {
+    margin: 7em 0 0;
+    padding: 0; }
+  #projects .project-space {
     position: relative;
-    text-align: center;
-    color: #020304; }
-    #projects .picture-side .project-row {
+    top: 10vmin;
+    background-color: transparent; }
+    #projects .project-space .project-frame {
       height: 25vmin;
-      width: 100%; }
+      margin: 0 0 2em;
+      background-color: black;
+      color: white; }
+      #projects .project-space .project-frame p {
+        margin: 1em 0 1em; }
+      #projects .project-space .project-frame img {
+        width: 100%;
+        height: 25vmin; }
+      #projects .project-space .project-frame .the-thumbnail:hover {
+        opacity: 0;
+        filter: alpha(opacity=0); }
 
 #contact {
-  background-color: white;
-  height: 100vh;
+  background-image: url(../images/backgrounds/concrete-4.jpg);
+  background-size: cover;
+  min-height: 100vh;
   font-family: "Lato", sans-serif; }
   #contact header {
     border: 1px solid transparent; }
-  #contact .content-side {
-    height: 100vh; }
-    #contact .content-side h1 {
-      color: #020304;
-      text-align: center;
-      font-size: 4vw;
-      margin-top: 0; }
-    #contact .content-side h4 {
-      color: #020304; }
-    #contact .content-side nav {
-      position: absolute;
-      bottom: 2vmin;
-      left: 0;
-      right: 0;
-      text-align: center; }
-      #contact .content-side nav a, #contact .content-side nav a:hover, #contact .content-side nav a:visited, #contact .content-side nav a:active {
-        color: #020304;
-        text-transform: lowercase;
-        font-size: 2vw;
-        margin-right: 1em;
-        margin-left: 1em;
-        transition: transform 0.3s ease-in;
-        text-decoration: none; }
-      #contact .content-side nav a:hover {
-        transform: scale(1.2);
-        color: #202A70; }
+  #contact .content-side h1 {
+    color: black;
+    text-align: center;
+    font-size: 4vw;
+    margin-top: 0; }
+  #contact .content-side h4 {
+    color: #020304; }
+  #contact .content-side .form-space {
+    color: black;
+    position: relative;
+    top: 20vmin; }
+    #contact .content-side .form-space .btn-success {
+      background-color: black;
+      border-color: black; }
+  #contact .content-side .social-icons {
+    text-align: center;
+    font-size: 4em;
+    margin-top: 4em; }
+    #contact .content-side .social-icons a, #contact .content-side .social-icons a:hover {
+      color: black;
+      margin: 0 1em 0 1em; }
   #contact .picture-side {
-    background-size: auto;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-color: #202A70;
-    height: 100vh;
     position: relative;
     text-align: center;
-    color: #020304; }
+    color: black; }
     #contact .picture-side .live-map {
-      height: 100vmin;
-      width: 100%; }
+      position: relative;
+      top: 15vmin;
+      border: 5px solid black; }
+      #contact .picture-side .live-map .the-map {
+        width: 100%;
+        height: 60vmin; }

@@ -16,8 +16,9 @@
   <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
   <script src="https://parse.com/downloads/javascript/parse-1.6.0.js"></script>
-  <script src="/js/ping.js"></script>
+  <link href='https://fonts.googleapis.com/css?family=Delius' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,300,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
   <link rel="canonical" href="http://shenils.github.io/">
   <link rel="alternate" type="application/rss+xml" title="Shenil" href="http://shenils.github.io/feed.xml" />
 </head>
@@ -25,53 +26,37 @@
 
   <body>    
     <div id="land">
-  <div class="row">
-    <div class="col-sm-7">
-      <div class="content-side">
-        <h1>shenil shah</h1>
-        <div class="carousel-space">
-          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner" role="listbox">
-              <div class="item active">
-                <img src="../images/alphabeats.png" alt="...">
-              </div>
-              <div class="item">
-                <img src="../images/roulette.png" alt="...">
-                <!-- <div class="carousel-caption">
-                  Roulette using Javascript
-                </div> -->
-              </div>
-              <div class="item">
-                <img src="../images/parkey.png" alt="...">
-                <!-- <div class="carousel-caption">
-                  Giving back
-                </div> -->
-              </div>
-            </div>
-
-            <!-- Controls -->
-            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-        </div>
-        <nav>
-          
-
-  
+  <div class="opening-page">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-3 textbox">
+      <h4>Bio</h4>
+      <a href="www.google.com">google link</a>
+      <p>birthdate: 18 june, 1993</p>
+      <p>hometown: antwerp, belgium</p>
+      <h4>education</h4>
+      <p>antwerp british school (1997 - 2004)</p>
+      <p>antwerp international school (2004 - 2009)</p>
+      <p>british school of brussels (2009 - 2011)</p>
+      <p>boston university school of management (2011 - 2015)</p>
+      <p>code astra (2015)</p>
+    </div>
+    <div class="col-sm-4">
+      <img src="../images/shenil.png" alt="">
+    </div>
+    <div class="col-sm-3 textbox">
+      <h4>work & training experiences</h4>
+      <p>the best of both - co-founder & events management</p>
+      <p>american airlines - finance analyst intern</p>
+      <p>k girdharlal - manufacturing & sales</p>
+      <h4>hobbies</h4>
+      <p>basketball & tennis</p>
+      <p>coding</p>
+      <p>reading</p>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <nav>
+    <!-- 
 
   
 
@@ -81,10 +66,6 @@
     
   
 
-  
-    
-      <a href="/about/">About</a>
-    
   
 
   
@@ -98,18 +79,69 @@
       <a href="/contact/">Contact</a>
     
   
+ -->
 
-        </nav>
-      </div>
-    </div>
-    
-    <div class="col-sm-5 hidden-xs picture-side">
-      <p>this is me</p>
-    </div>
-  </div>
+<div id="navbar">
+  <a href="/" class="brand navbar-left">Shenil Shah</a>
+  <a href="/contact" class="main-navi navbar-right">contact</a>
+  <a href="/projects" class="main-navi navbar-right">projects</a>
+  <a href="/#gallery" class="main-navi navbar-right">wall of fame</a>
 </div>
 
 
+
+
+
+  </nav>
+  <div id="gallery">
+    <div class="col-sm-3 hidden-xs"></div>
+    <div class="col-sm-6">
+      <div class="small-c">
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="../images/alphabeats.png" alt="Alphabeats Music">
+              <!-- div class="carousel-caption">
+                ...
+              </div> -->
+            </div>
+            <div class="item">
+              <img src="../images/bestofboth.png" alt="Parkey">
+              <!-- <div class="carousel-caption">
+                ...
+              </div> -->
+            </div>
+            <div class="item">
+              <img src="../images/roulette.png" alt="Roulette">
+              <!-- <div class="carousel-caption">
+                ...
+              </div> -->
+            </div>
+          </div>
+
+          <!-- Controls -->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 hidden-xs"></div>
+  </div>
+</div>
   </body>
 
 </html>

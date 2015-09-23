@@ -1,69 +1,45 @@
 #land {
-  background-color: white;
-  height: 100vh;
-  font-family: $heading-font; 
+  // background-color: red;
 
-  header {
-    border: 1px solid transparent;
-  }
+  .opening-page {
+    height: 90vmin;
+    background-image: url(../images/backgrounds/paper.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: 'Delius', cursive;
 
-  .content-side {
-    height: 100vh;
-    
-    h1 {
-      color: #020304;
-      text-align: center;
-      font-size: 4vw;
-      margin-top: 0;
-    }
+    .textbox {
+      height: 60vmin;
+      position: relative;
+      top: 15vmin;
+      font-weight: 700;
+      border: 2px solid black;
 
-    h4 {
-      color: #020304;
-    }
-    
-    .carousel-space {
-      height: 50vmin;
-      color: black;
-      position: absolute;
-      top: 25vmin;
-      bottom: 25vmin;
-    }
-
-    nav {
-      position: absolute;
-      bottom: 2vmin;
-      left: 0;  
-      right: 0;
-      text-align: center;
-
-      a {
-        &, &:hover, &:visited, &:active {
-          color: #020304;
-          text-transform: lowercase;
-          font-size: 2vw;
-          margin-right: 1em;
-          margin-left: 1em;
-          transition: transform 0.3s ease-in;
-          text-decoration: none;
-        }
-
-        &:hover {
-          transform: scale(1.2);
-          color: #202A70;
-        }
+      h4 {
+        color: black;
       }
     }
+
+    img {
+      height: 60vmin;
+      position: relative;
+      top: 15vmin;
+      // bottom: 25vmin;
+    }
   }
 
-  .picture-side {
-    background-image: url('../images/shenil.jpg');
-    background-size: auto;
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-color: white;
-    height: 100vh;
-    position: relative;
+  #gallery {
+    height: 90vmin;
+    background-image: url(../images/backgrounds/brick.jpg);
+    background-size: cover;
+    background-position: bottom;
     text-align: center;
-    color: #020304;
+    
+    .small-c {
+      position: relative;
+      top: 15vmin;
+      // width: 100vmin;
+      // height: 30vmin;  
+    }
   }
 }

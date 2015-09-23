@@ -2,14 +2,16 @@
 layout: default
 title: Contact
 permalink: /contact/
-position: 5
+position: 3
 ---
 
 <div id="contact">
+  <nav>
+    {% include nav_links.html %}
+  </nav>
   <div class="row">
-    <div class="col-sm-7">
+    <div class="col-sm-6">
       <div class="content-side">
-        <h1>contact me</h1>
         <div class="form-space">
           <form id="contactForm" class="form-horizontal">
             <div class="form-group">
@@ -37,14 +39,23 @@ position: 5
             </div>
           </form>
         </div>
-        <nav>
-          {% include nav_links.html %}
-        </nav>
+
+        <div class="social-icons">
+          <a href="#"><i class="fa fa-facebook-square"></i></a>
+          <a href="#"><i class="fa fa-linkedin-square"></i></a>
+          <a href="#"><i class="fa fa-github-square"></i></a>
+        </div>
       </div>
     </div>
     
-    <div class="col-sm-5 hidden-xs picture-side">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d344480.75801802566!2d78.37046324786954!3d17.459205568013246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93ce4f39a815%3A0x6eef33ec4d20f929!2sJayabheri+Silicon+Towers%2C+Hitech+City+Rd%2C+Kothaguda%2C+Hyderabad%2C+Telangana+500084%2C+India!5e0!3m2!1sen!2sbe!4v1442557899851" width="800" height="600" frameborder="0" style="border:0" allowfullscreen class="live-map"></iframe>
+    <div class="col-sm-6 hidden-xs picture-side">
+      <div class="col-sm-1"></div>
+      <div class="col-sm-10">
+        <div class="live-map">
+          <iframe class="the-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7612.050004011601!2d78.37230380000007!3d17.458517400000012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93ddb58d1b49%3A0xcfcead772f6ce1c9!2sGoogle!5e0!3m2!1sen!2sin!4v1442904658544" width="500" height="375" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="col-sm-1"></div>
     </div>
   </div>
 </div>

@@ -19,6 +19,46 @@ nav.navbar {
   text-transform: lowercase;
 }
 
+
+#navbar {
+  height: 10vmin;
+  background-color: black;
+  line-height: 10vmin;
+  
+
+  .brand {
+    &, &:hover, &:visited, &:active {
+      color: white;
+      text-transform: lowercase;
+      font-size: 2vw;
+      margin: 0 1em 0 1em;
+      transition: transform 0.3s ease-in;
+      text-decoration: none;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: white;
+    }
+  }
+
+  .main-navi {
+    &, &:hover, &:visited, &:active {
+      color: white;
+      text-transform: lowercase;
+      font-size: 2vw;
+      margin: 0 1em 0 1em;
+      transition: transform 0.3s ease-in;
+      text-decoration: none;
+    }
+
+    &:hover {
+      transform: scale(1.2);
+      color: white;
+    }
+  }
+}
+  
 footer {
   margin: 2em 0 1em;
   text-align: center;

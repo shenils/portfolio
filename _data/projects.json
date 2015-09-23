@@ -1,0 +1,50 @@
+[
+{
+title: "Alphabeats Music",
+description: "An independent music discovery and streaming platform",
+link: "www.alphabeatsmusic.com",
+thumbnail: "alphabeats.png",
+},
+{
+title: "Roulette",
+description: "Vegas, baby",
+link: "aditmehta.github.io/roulette/",
+thumbnail: "roulette.png",
+},
+{
+title: "Calculator",
+description: "basic calculator",
+link: "http://shenils.github.io/calculator",
+thumbnail: "calculator.png",
+},
+{
+title: "Parkey",
+description: "peer to peer parking marketplace",
+link: "",
+thumbnail: "parkey.png",
+},
+{
+title: "Bing vs Google",
+description: "strategic analysis of Microsoft's search engine",
+link: "",
+thumbnail: "bing.png",
+},
+{
+title: "Playpod",
+description: "Consumer product business plan",
+link: "http://mezzo24.wix.com/teamfource",
+thumbnail: "pod.png",
+},
+{
+title: "Pick Me App",
+description: "An incomplete community ride-sharing app",
+link: "",
+thumbnail: "pickmeapplogo.jpg",
+},
+{
+title: "The Best of Both",
+description: "A school partnering charity",
+link: "www.thebestofboth.org",
+thumbnail: "bestofboth.png",
+},
+]

@@ -1,4 +1,4 @@
-{% assign sorted_pages = (site.pages | sort: 'position') %}
+<!-- {% assign sorted_pages = (site.pages | sort: 'position') %}
 {% for page in sorted_pages %}
   {% if page.title %}
     {% if include.param == "show-li" %}
@@ -7,4 +7,15 @@
       <a href="{{ page.url | prepend:site.baseurl }}">{{ page.title }}</a>
     {% endif %}
   {% endif %}
-{% endfor %}
+{% endfor %} -->
+
+<div id="navbar">
+  <a href="{{'/' | prepend:site.baseurl }}" class="brand navbar-left">Shenil Shah</a>
+  <a href="{{'/contact' | prepend:site.baseurl }}" class="main-navi navbar-right">contact</a>
+  <a href="{{'/projects' | prepend:site.baseurl }}" class="main-navi navbar-right">projects</a>
+  <a href="{{'/#gallery' | prepend:site.baseurl }}" class="main-navi navbar-right">wall of fame</a>
+</div>
+
+
+
+
