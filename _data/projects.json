@@ -2,13 +2,13 @@
 {
 title: "Alphabeats Music",
 description: "An independent music discovery and streaming platform",
-link: "www.alphabeatsmusic.com",
+link: "http://www.alphabeatsmusic.com",
 thumbnail: "alphabeats.png",
 },
 {
 title: "Roulette",
 description: "Vegas, baby",
-link: "aditmehta.github.io/roulette/",
+link: "http://aditmehta.github.io/roulette/",
 thumbnail: "roulette.png",
 },
 {
@@ -24,9 +24,9 @@ link: "",
 thumbnail: "parkey.png",
 },
 {
-title: "Bing vs Google",
+title: "Bing: search for success",
 description: "strategic analysis of Microsoft's search engine",
-link: "",
+link: "https://drive.google.com/file/d/0B67DuLxwOcXea2QwS01VbndPSk0/view?usp=sharing",
 thumbnail: "bing.png",
 },
 {
@@ -38,13 +38,13 @@ thumbnail: "pod.png",
 {
 title: "Pick Me App",
 description: "An incomplete community ride-sharing app",
-link: "",
+link: "https://drive.google.com/file/d/0B67DuLxwOcXeWHAyNVBHdWN5VzA/view?usp=sharing",
 thumbnail: "pickmeapplogo.jpg",
 },
 {
 title: "The Best of Both",
 description: "A school partnering charity",
-link: "www.thebestofboth.org",
+link: "http://www.thebestofboth.org",
 thumbnail: "bestofboth.png",
 },
 ]

@@ -114,16 +114,25 @@ footer {
     #projects .project-space .project-frame {
       height: 25vmin;
       margin: 0 0 2em;
-      background-color: black;
       color: white; }
+      #projects .project-space .project-frame .black-back {
+        background-color: black;
+        height: 100%;
+        width: 100%; }
       #projects .project-space .project-frame p {
         margin: 1em 0 1em; }
       #projects .project-space .project-frame img {
         width: 100%;
         height: 25vmin; }
-      #projects .project-space .project-frame .the-thumbnail:hover {
-        opacity: 0;
-        filter: alpha(opacity=0); }
+      #projects .project-space .project-frame .the-thumbnail {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0; }
+        #projects .project-space .project-frame .the-thumbnail:hover {
+          opacity: 0;
+          filter: alpha(opacity=0); }
 
 #contact {
   background-image: url(../images/backgrounds/concrete-4.jpg);
