@@ -10,7 +10,7 @@ position: 2
     {% include nav_links.html %}
   </nav>
   <p class="instruction">hover over a project for more info. click on it to access the project website or relevant files.</p>
-  <div class="container project-space">
+  <div class="container-fluid project-space">
     {% for project in site.data.projects %}
       <a href="{{ project.link }}">
         <div class="project-frame col-sm-3">
@@ -19,7 +19,7 @@ position: 2
             <h5>{{ project.title  }}</h5>
             <p>{{ project.description }}</p>
             <div class="the-thumbnail">
-              <img src="{{ project.thumbnail | prepend: '/images/projects/' }}" alt="#">
+            <img src="{{ project.thumbnail | prepend: '/images/projects/' | prepend: site.baseurl }}" alt="#">
             </div>
           </div>
           <div class="col-sm-1"></div>

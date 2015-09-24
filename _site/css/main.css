@@ -79,9 +79,15 @@ footer {
     position: relative;
     top: 15vmin;
     font-weight: 700;
-    border: 2px solid black; }
+    border: 2px solid black;
+    font-size: 1.5em; }
+    #land .opening-page .textbox a, #land .opening-page .textbox a:hover, #land .opening-page .textbox a:active, #land .opening-page .textbox a:visited {
+      color: #888888;
+      text-decoration: none; }
     #land .opening-page .textbox h4 {
-      color: black; }
+      color: black;
+      font-size: 1.5em;
+      margin-top: 1.5em; }
   #land .opening-page img {
     height: 60vmin;
     position: relative;
@@ -105,8 +111,9 @@ footer {
   color: white;
   text-align: center; }
   #projects .instruction {
-    margin: 7em 0 0;
-    padding: 0; }
+    margin: 5em 0 0;
+    padding: 0;
+    font-size: 2em; }
   #projects .project-space {
     position: relative;
     top: 10vmin;
@@ -119,8 +126,11 @@ footer {
         background-color: black;
         height: 100%;
         width: 100%; }
+      #projects .project-space .project-frame h5 {
+        font-size: 2em; }
       #projects .project-space .project-frame p {
-        margin: 1em 0 1em; }
+        margin: 1em 0 1em;
+        font-size: 1.5em; }
       #projects .project-space .project-frame img {
         width: 100%;
         height: 25vmin; }
@@ -129,7 +139,8 @@ footer {
         height: 100%;
         position: absolute;
         top: 0;
-        left: 0; }
+        left: 0;
+        transition: opacity 1s; }
         #projects .project-space .project-frame .the-thumbnail:hover {
           opacity: 0;
           filter: alpha(opacity=0); }
@@ -151,13 +162,15 @@ footer {
   #contact .content-side .form-space {
     color: black;
     position: relative;
-    top: 20vmin; }
+    top: 20vmin;
+    font-size: 1.5em; }
     #contact .content-side .form-space .btn-success {
       background-color: black;
-      border-color: black; }
+      border-color: black;
+      font-size: 1em; }
   #contact .content-side .social-icons {
     text-align: center;
-    font-size: 4em;
+    font-size: 6em;
     margin-top: 4em; }
     #contact .content-side .social-icons a, #contact .content-side .social-icons a:hover {
       color: black;

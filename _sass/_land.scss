@@ -14,9 +14,20 @@
       top: 15vmin;
       font-weight: 700;
       border: 2px solid black;
+      font-size: 1.5em;
+      
+      a {
+        &, &:hover, &:active, &:visited {
+          color: #888888;
+          text-decoration: none;
+          
+        }
+      }
 
       h4 {
         color: black;
+        font-size: 1.5em;
+        margin-top: 1.5em;
       }
     }
 
