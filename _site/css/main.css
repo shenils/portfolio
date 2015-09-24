@@ -80,14 +80,14 @@ footer {
     top: 15vmin;
     font-weight: 700;
     border: 2px solid black;
-    font-size: 1.5em; }
+    font-size: 1.25em; }
     #land .opening-page .textbox a, #land .opening-page .textbox a:hover, #land .opening-page .textbox a:active, #land .opening-page .textbox a:visited {
       color: #888888;
       text-decoration: none; }
     #land .opening-page .textbox h4 {
       color: black;
       font-size: 1.5em;
-      margin-top: 1.5em; }
+      margin-top: 1em; }
   #land .opening-page img {
     height: 60vmin;
     position: relative;
@@ -111,7 +111,7 @@ footer {
   color: white;
   text-align: center; }
   #projects .instruction {
-    margin: 5em 0 0;
+    margin: 4em 0 0;
     padding: 0;
     font-size: 2em; }
   #projects .project-space {
@@ -171,10 +171,10 @@ footer {
   #contact .content-side .social-icons {
     text-align: center;
     font-size: 6em;
-    margin-top: 4em; }
+    margin-top: 3em; }
     #contact .content-side .social-icons a, #contact .content-side .social-icons a:hover {
       color: black;
-      margin: 0 1em 0 1em; }
+      margin: 0 0.5em 0 0.5em; }
   #contact .picture-side {
     position: relative;
     text-align: center;
