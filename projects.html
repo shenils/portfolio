@@ -12,7 +12,7 @@ position: 2
   <p class="instruction">hover over a project for more info. click on it to access the project website or relevant files.</p>
   <div class="container-fluid project-space">
     {% for project in site.data.projects %}
-      <a href="{{ project.link }}">
+      <a href="{{ project.link }}" target=_blank>
         <div class="project-frame col-sm-3">
           <div class="col-sm-1"></div>
           <div class="col-sm-10 black-back">
